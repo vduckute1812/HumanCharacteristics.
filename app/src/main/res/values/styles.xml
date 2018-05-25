@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="HomePage">
+        <item name="android:background">@mipmap/background3</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="BackgroundTextFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@mipmap/background3</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="CustomAppTheme" parent="Theme.AppCompat">
+        <item name="android:textColorPrimaryDisableOnly">@color/colorPrimary</item>
+        <item name="colorAccent">#e91e63</item>
+    </style>
+    <style name="TextColor" parent="@android:style/TextAppearance.Medium">
+    <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="StyleForListView" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/font_size_16</item>
+    </style>
+
+    <style name="StyleForAlertDialgo" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@color/blue_100</item>
+    </style>
+
+</resources>
